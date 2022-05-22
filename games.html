@@ -1,0 +1,107 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" type="image/jpg" href=""/>
+<title>Games</title>
+<style>
+body{
+	background-image:url('games.jpg');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	background-size: cover;
+}
+.container{
+	width:90%;
+	height:80%;
+	margin:auto;
+	background:transparent;
+	padding:10px;
+}
+.block{
+	float:left;
+	margin:30px;
+	height:260px;
+	width:200px;
+	color:white;
+	background:black;
+	box-shadow:10px 10px 15px black;
+}
+.block:hover{
+	cursor:pointer;
+	color:black;
+	background:white;
+}
+p{
+	margin:auto;
+	font-style:italic;
+	text-align:center;
+	bottom:10px;
+	font-size:40px;
+}
+img{
+	height:50%;
+	width:100%;
+}
+nav{
+	position:sticky;
+	background:black;
+	padding:5px;
+}
+li{
+	display:inline;
+	margin:10px;
+	font-style:oblique;
+	font-size:40px;
+	align:right;
+}
+a{
+	color:white;
+	text-decoration:none;
+	border:solid 2px white;
+	padding-right:50px;
+	padding-left:50px;
+}
+a:hover{
+	color:black;
+	background:white;
+	cursor:pointer;
+	border-color:black;
+}
+
+@media only screen and (max-width:1200px){
+	li{
+		
+		margin-left:auto;
+		display:block;
+	}
+	a{
+		padding-right:30%;
+	        padding-left:35%;
+
+	}
+}
+
+</style>
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Learn</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Login</a></li>
+<li><a href="#">Signup</a></li>
+</ul>
+</nav>
+</header>
+<div class="container">
+<div class="block"><img src="5.jpg"><br><p><strong>game1</strong><br>info1</p></div>
+<div class="block"><img src="5.jpg"><br><p><strong>game2</strong><br>info2</p></div>
+<div class="block"><img src="5.jpg"><br><p><strong>game3</strong><br>info3</p></div>
+<div class="block"><img src="5.jpg"><br><p><strong>game4</strong><br>info4</p></div>
+</div>
+
+<script></script>
+</body>
+</html>
